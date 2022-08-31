@@ -1,14 +1,22 @@
 import * as styledComponents from 'styled-components';
 
 export interface IThemeInterface {
-  home: {
-    borderColor: string;
+  color: {
+    primary: string;
+    danger: string;
+    warning: string;
+    success: string;
+    border: string;
   };
 }
 
 export const theme: IThemeInterface = {
-  home: {
-    borderColor: '#dddddd',
+  color: {
+    primary: '#1890ff',
+    danger: '#ff4d4f',
+    warning: '#faad14',
+    success: '#52c41a',
+    border: '#d4d9e1',
   },
 };
 
