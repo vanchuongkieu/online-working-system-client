@@ -6,6 +6,9 @@ import {HelmetProvider} from 'react-helmet-async';
 import {theme, ThemeProvider} from './app/styles/styled-components';
 import {store} from './redux/config-store';
 
+import 'antd/dist/antd.css';
+import 'antd/dist/antd.variable.min.css';
+
 import App from './app';
 
 const MOUNT_NODE = document.getElementById('root') as HTMLElement;

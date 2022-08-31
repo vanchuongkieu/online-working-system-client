@@ -6,7 +6,7 @@ export interface IThemeInterface {
     danger: string;
     warning: string;
     success: string;
-    border: string;
+    light: string;
   };
 }
 
@@ -16,7 +16,7 @@ export const theme: IThemeInterface = {
     danger: '#ff4d4f',
     warning: '#faad14',
     success: '#52c41a',
-    border: '#d4d9e1',
+    light: '#d4d9e1',
   },
 };
 
